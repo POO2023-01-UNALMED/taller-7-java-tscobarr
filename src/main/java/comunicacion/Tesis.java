@@ -12,7 +12,7 @@ public class Tesis extends Escrito{
 	}
 	
 	public int palabrasTotales(int palabrasPagina) {
-        return palabrasPagina * getPaginas() * 10;
+        return palabrasPagina * getPaginas() * 5;
 	}
 	
 	public String toString() {
